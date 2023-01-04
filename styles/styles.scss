@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  user-select: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: ghostwhite;
+  h1 {
+    text-decoration: underline;
+  }
+  
+  h1, h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 1rem 0.75rem 1rem;
+  }
+}
+
+#tooltip {
+  color: ghostwhite;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 1.15rem;
+  padding: 0.5rem;
+}
